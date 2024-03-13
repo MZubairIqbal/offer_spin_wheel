@@ -2,8 +2,12 @@
 const spinbtn = document.querySelector('.spin-btn');
 const formSubmit = document.querySelector('#coupon-form');
 const wheel = document.querySelector('.wheel');
+
+
 let value = Math.ceil(Math.random() * 3600);
-console.log(formSubmit);
+// console.log(formSubmit);
+
+
 formSubmit.addEventListener('submit', (e) => {
     e.preventDefault();
     let minRotations = 1;
