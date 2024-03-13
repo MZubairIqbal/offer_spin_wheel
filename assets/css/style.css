@@ -490,8 +490,6 @@ input[type='checkbox'] {
   .wheel-wraper .wheel .number span {
     font-size: 1.4;
   }
-  .data-main {
-  }
   .table-wraper .slice-padder {
     /* border: 2px solid red; */
     overflow-x: scroll;
